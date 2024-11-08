@@ -10,10 +10,15 @@ header,
 footer {
   background-color: #222f3f;
 }
+main,
+nav ul,
+.logo {
+  width: 95%;
+  margin: 0 auto;
+}
 header img {
   width: 5%;
-  padding: 10px;
-  margin-left: 2%;
+  padding: 15px 15px 15px 0;
 }
 nav,
 footer p {
@@ -32,12 +37,9 @@ nav ul li {
 }
 
 .nav {
-    text-decoration: none;
+  text-decoration: none;
 }
-main, nav ul {
-  width: 95%;
-  margin: 0 auto;
-}
+
 section,
 article,
 footer {
