@@ -61,7 +61,6 @@ const cars = [
   },
 ];
 
-console.log(cars[0]);
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
@@ -116,10 +115,13 @@ const numericArray = [
 ];
 
 let i = 0;
+let numericArray2 = [];
 
-while (i < numericArray.length) {
-
+while (numericArray[i] != 32) {
+  numericArray2.push(numericArray[i]);
+  i++;
 }
+console.log(numericArray2);
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
@@ -127,3 +129,74 @@ while (i < numericArray.length) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+let numbers = [];
+
+for (let i = 0; i < charactersArray.length; i++) {
+  switch (charactersArray[i]) {
+    case "a":
+      numbers.push(1);
+      break;
+    case "b":
+      numbers.push(2);
+      break;
+      case "c":
+      numbers.push(3);
+      break;
+      case "d":
+      numbers.push(4);
+      break;
+      case "e":
+      numbers.push(5);
+      break;
+      case "f":
+      numbers.push(6);
+      break;
+      case "g":
+      numbers.push(7);
+      break;
+      case "h":
+      numbers.push(8);
+      break;
+      case "i":
+      numbers.push(9);
+      break;
+      case "l":
+      numbers.push(10);
+      break;
+      case "m":
+      numbers.push(11);
+      break;
+      case "n":
+      numbers.push(12);
+      break;
+      case "o":
+      numbers.push(13);
+      break;
+      case "p":
+      numbers.push(14);
+      break;
+      case "q":
+      numbers.push(15);
+      break;
+      case "r":
+      numbers.push(16);
+      break;
+      case "s":
+      numbers.push(17);
+      break;
+      case "t":
+      numbers.push(18);
+      break;
+      case "u":
+      numbers.push(19);
+      break;
+      case "v":
+      numbers.push(20);
+      break;
+      case "z":
+      numbers.push(21);
+      break;
+  }
+}
+
+console.log(numbers);
