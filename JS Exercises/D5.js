@@ -61,6 +61,7 @@ const cars = [
   },
 ];
 
+let cars2 = [];
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
@@ -100,12 +101,17 @@ let colors = [];
 
 for (let i = 0; i < cars.length; i++) {
   colors.push(cars[i].color);
-  for (let i = 0; i < colors.length; i++)
-    if (colors[i].indexOf() === "b") {
-      colors.push("Fizz");
-    }
 }
 console.log(colors);
+
+for (let i = 0; i < colors.length; i++) {
+  if (colors[i].indexOf() === "b") {
+    console.log("Fizz");
+  } else {
+    console.log("Buzz");
+  }
+  console.log(colors);
+}
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
@@ -139,61 +145,61 @@ for (let i = 0; i < charactersArray.length; i++) {
     case "b":
       numbers.push(2);
       break;
-      case "c":
+    case "c":
       numbers.push(3);
       break;
-      case "d":
+    case "d":
       numbers.push(4);
       break;
-      case "e":
+    case "e":
       numbers.push(5);
       break;
-      case "f":
+    case "f":
       numbers.push(6);
       break;
-      case "g":
+    case "g":
       numbers.push(7);
       break;
-      case "h":
+    case "h":
       numbers.push(8);
       break;
-      case "i":
+    case "i":
       numbers.push(9);
       break;
-      case "l":
+    case "l":
       numbers.push(10);
       break;
-      case "m":
+    case "m":
       numbers.push(11);
       break;
-      case "n":
+    case "n":
       numbers.push(12);
       break;
-      case "o":
+    case "o":
       numbers.push(13);
       break;
-      case "p":
+    case "p":
       numbers.push(14);
       break;
-      case "q":
+    case "q":
       numbers.push(15);
       break;
-      case "r":
+    case "r":
       numbers.push(16);
       break;
-      case "s":
+    case "s":
       numbers.push(17);
       break;
-      case "t":
+    case "t":
       numbers.push(18);
       break;
-      case "u":
+    case "u":
       numbers.push(19);
       break;
-      case "v":
+    case "v":
       numbers.push(20);
       break;
-      case "z":
+    case "z":
       numbers.push(21);
       break;
   }
