@@ -20,7 +20,7 @@ footer p {
   background-color: #364759;
   padding: 8px;
 }
-nav ul li,
+nav ul li a,
 .bar,
 article,
 .footerLink {
@@ -32,6 +32,9 @@ nav ul li {
 }
 nav ul {
   margin-left: 1.5%;
+}
+.nav {
+    text-decoration: none;
 }
 main {
   width: 95%;

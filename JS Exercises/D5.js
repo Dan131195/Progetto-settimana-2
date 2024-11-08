@@ -35,7 +35,7 @@ console.log(pets3);
 let pets4 = pets[0];
 pets.shift();
 pets.push(pets4);
-console.log(pets)
+console.log(pets);
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
@@ -61,6 +61,11 @@ const cars = [
   },
 ];
 
+for (let i = 0; i < cars.length; i++) {
+  let license = { licensePlate: "AA 000 BB" };
+  cars.push(license);
+}
+console.log(cars);
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
@@ -71,7 +76,8 @@ const cars = [
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
 const justTrims = [];
-
+justTrims.push(cars.trims);
+console.log(justTrims);
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
