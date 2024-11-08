@@ -1,0 +1,121 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eaeded;
+}
+header,
+footer {
+  background-color: #222f3f;
+}
+header img {
+  width: 5%;
+  padding: 10px;
+  margin-left: 2%;
+}
+nav,
+footer p {
+  background-color: #364759;
+  padding: 8px;
+}
+nav ul li,
+.bar,
+article,
+.footerLink {
+  color: white;
+}
+nav ul li {
+  display: inline;
+  margin: 15px;
+}
+nav ul {
+  margin-left: 1.5%;
+}
+main {
+  width: 95%;
+  margin: 0 auto;
+}
+section,
+article,
+footer {
+  margin-top: 25px;
+  text-align: center;
+}
+.subtitleTop,
+h1 {
+  padding: 10px;
+}
+
+.bar {
+  background-color: #f56600;
+  padding: 8px;
+}
+.titleTop div {
+  background-image: url(../images/bg-image.png);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2.5% 0;
+  width: 100%;
+}
+.subtitleTop,
+.link {
+  font-weight: bold;
+}
+h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+#center {
+  background-color: #ffffff;
+}
+#center h2 {
+  text-align: left;
+  padding: 15px;
+}
+.link {
+  text-decoration: none;
+  color: #017285;
+  padding-left: 10px;
+  font-size: 0.8em;
+}
+.images {
+  height: 90%;
+  margin-top: -10px;
+}
+.img1 {
+  background-image: url(../images/img_1.jpg);
+}
+.img2 {
+  background-image: url(../images/img_2.jpg);
+}
+.img3 {
+  background-image: url(../images/img_3.jpg);
+}
+.img4 {
+  background-image: url(../images/img_4.jpg);
+}
+.images div {
+  width: 240px;
+  height: 310px;
+  margin: 15px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 8px lightgray;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+}
+.gaming img,
+.audio img {
+  width: 100%;
+}
+.footerLink {
+  padding: 15px;
+  font-size: 0.8em;
+}
+footer img {
+  padding: 2.5%;
+  width: 8%;
+}
