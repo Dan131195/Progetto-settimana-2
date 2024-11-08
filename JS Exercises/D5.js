@@ -63,6 +63,11 @@ const cars = [
 
 let cars2 = [];
 
+for (let i = 0; i < cars.length; i++){
+  cars[i].push(license)
+}
+
+
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
@@ -103,7 +108,7 @@ for (let i = 0; i < cars.length; i++) {
   colors.push(cars[i].color);
 }
 
-//---------------------------------------------------------------------------------------
+//------------------------------------------
 
 for (let i = 0; i < colors.length; i++) {
   if (colors[i].indexOf("b")) {
