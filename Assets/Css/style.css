@@ -18,7 +18,7 @@ header img {
 nav,
 footer p {
   background-color: #364759;
-  padding: 8px;
+  padding: 8px 8px 8px 0;
 }
 nav ul li a,
 .bar,
@@ -28,15 +28,13 @@ article,
 }
 nav ul li {
   display: inline;
-  margin: 15px;
+  margin: 15px 15px 15px 0;
 }
-nav ul {
-  margin-left: 1.5%;
-}
+
 .nav {
     text-decoration: none;
 }
-main {
+main, nav ul {
   width: 95%;
   margin: 0 auto;
 }
