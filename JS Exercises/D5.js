@@ -61,6 +61,8 @@ const cars = [
   },
 ];
 
+console.log(cars[0]);
+
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
@@ -95,7 +97,16 @@ console.log(justTrims);
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
 
+let colors = [];
 
+for (let i = 0; i < cars.length; i++) {
+  colors.push(cars[i].color);
+  for (let i = 0; i < colors.length; i++)
+    if (colors[i].indexOf() === "b") {
+      colors.push("Fizz");
+    }
+}
+console.log(colors);
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
@@ -106,7 +117,7 @@ const numericArray = [
 
 let i = 0;
 
-while (i < numericArray) {
+while (i < numericArray.length) {
 
 }
 
