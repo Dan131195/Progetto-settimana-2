@@ -61,7 +61,7 @@ const cars = [
   },
 ];
 
-let cars2 = [];
+
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
@@ -88,7 +88,7 @@ console.log(cars);
 const justTrims = [];
 
 for (let i = 0; i < cars.length; i++) {
-  justTrims.push(cars[i].trims);
+  justTrims.push(cars[i].trims[0]);
 }
 console.log(justTrims);
 
@@ -109,7 +109,7 @@ for (let i = 0; i < colors.length; i++) {
   if (colors[i].indexOf("b")) {
     colors[i] = "Fizz";
   } else {
-    colors[i] = ("Buzz");
+    colors[i] = "Buzz";
   }
 }
 console.log(colors);
